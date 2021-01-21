@@ -6,7 +6,7 @@ BEGIN
  ps :=0;
  i:= 0;
 IF (v1.length <> v2.length) THEN
-    WRITE ("vectors with diferent size")
+    WRITE ("vectors with diferent size");
     ps := NaN ;
 END_IF
 FOR i FROM 0 TO v1.length-1 STEP 1  DO
